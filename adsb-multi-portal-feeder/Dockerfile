@@ -1,4 +1,4 @@
-ARG BUILD_FROM=thomx/fr24feed-piaware:1.32.1
+ARG BUILD_FROM=eckstueck/fr24feed-piaware:latest
 FROM $BUILD_FROM
 
 ENV TZ=UTC
