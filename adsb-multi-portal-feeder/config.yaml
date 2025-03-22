@@ -1,6 +1,6 @@
-slug: adsb-multi-portal-feeder
-url: https://github.com/MaxWinterstein/homeassistant-addons/
-image: ghcr.io/maxwinterstein/homeassistant-adsb-multi-portal-feeder-{arch}
+slug: adsb-multi-portal-feeder-sup-v4
+url: https://github.com/eckstueck/homeassistant-addons/
+image: ghcr.io/maxwintersteckstueck/homeassistant-adsb-multi-portal-feeder-{arch}
 usb: true
 version: 1.32.1
 arch:
@@ -13,7 +13,7 @@ homeassistant_api: true
 ingress: true
 ingress_port: 8080
 init: false
-name: ADS-B Multi-Portal Feeder
+name: ADS-B Multi-Portal Feeder sup RTL-SDR v4
 options:
   # Common
   SERVICE_ENABLE_DUMP1090: true
