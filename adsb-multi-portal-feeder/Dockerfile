@@ -37,7 +37,8 @@ RUN mkdir -p /etc/s6-overlay/s6-rc.d/banner && \
     chmod +x /etc/s6-overlay/s6-rc.d/banner/script && \
     sed -i '1 s/^.*$/#!\/command\/with-contenv bashio/' /etc/s6-overlay/s6-rc.d/banner/script
 
-RUN rmmod dvb_usb_rtl28xxu
+RUN apt-get install kmod && \
+    rmmod dvb_usb_rtl28xxu
 
 
 
